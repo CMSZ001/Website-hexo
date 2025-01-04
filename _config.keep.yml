@@ -340,7 +340,7 @@ inject:
     # - /css/custom-2.css
     # - ...
   js:
-    - <script defer src="https://umami.acmsz.top/umami" data-website-id="40779511-7013-4fb7-8ded-d9b6d951e65e"></script>
+    -
     # e.g.
     # - /js/custom-1.js
     # - /js/custom-2.js
