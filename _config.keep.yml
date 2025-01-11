@@ -319,10 +319,10 @@ footer:
     url: https://github.com/CMSZ001/Website-hexo                # Your deployment provider url, Can be null
 
   record:
-    enable: false        # Option values: true | false
+    enable: true        # Option values: true | false
     list:
       - code: 网站访问统计           # record code of your website
-        link: https://umami.acmsz.top/share/9pcZkWQb3eKDTO4u/acmsz.top           # record link of your website, Can be null
+      - link: https://umami.acmsz.top/share/9pcZkWQb3eKDTO4u/acmsz.top           # record link of your website, Can be null
       # e.g.
       # - code: ICP 001
       # - link: https://beian.miit.gov.cn
