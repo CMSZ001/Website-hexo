@@ -214,7 +214,7 @@ local_search:
 # ---------------------------------------------------------------------------------------
 comment:
   enable: false   # Option values: true | false
-  use: giscus     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
+  use: waline     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
 
   # Valine
   # See: https://github.com/xCss/Valine
@@ -248,19 +248,19 @@ comment:
   # See: https://github.com/walinejs/waline
   #      https://waline.js.org/guide/get-started.html
   waline:
-    server_url:         # Server URL
-    reaction: false     # Post reactions, option values: true | false
-    version: 3.2.1      # Waline version, default use v3.2.1
+    server_url: waline.acmsz.top        # Server URL
+    reaction: true       # Post reactions, option values: true | false
+    version: 3.5.1      # Waline version, default use v3.2.1
 
   # Giscus
   # See: https://github.com/giscus/giscus
   #      https://giscus.app
   # Please generate your configuration items in https://giscus.app
   giscus:
-    repo: CMSZ001/Website-hexo
-    repo_id: R_kgDOMiVYyg
-    category: Announcements    # Recommend use Announcements
-    category_id: DIC_kwDOMiVYys4Cj6Kc
+    repo: 
+    repo_id: 
+    category:     # Recommend use Announcements
+    category_id: 
     reactions_enabled: true   # Option values: true | false
 
   # Artalk
@@ -321,8 +321,6 @@ footer:
   record:
     enable: true        # Option values: true | false
     list:
-      - code: 网站访问统计           # record code of your website
-      - link: https://umami.acmsz.top/share/9pcZkWQb3eKDTO4u/acmsz.top           # record link of your website, Can be null
       # e.g.
       # - code: ICP 001
       # - link: https://beian.miit.gov.cn
@@ -341,6 +339,5 @@ inject:
     # - ...
   js:
     # e.g.
-    - /js/page.js
     # - /js/custom-2.js
     # - ...
