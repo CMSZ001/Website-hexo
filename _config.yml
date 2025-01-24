@@ -122,3 +122,6 @@ feed:
   limit: 20
 
 all_minifier: true
+
+plugin_dir:
+  - scripts
