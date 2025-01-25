@@ -13,4 +13,9 @@ updated: '2025-01-25T11:34:55.637+08:00'
 
 ## 换源 & 安装必要组件
 
-1. [Mirrorz](https://help.mirrors.cernet.edu.cn/termux/)
+* [Mirrorz](https://help.mirrors.cernet.edu.cn/termux/)
+* 安装`Termux-Service`
+
+  ```bash
+  apt update && apt install termux-service
+  ```
