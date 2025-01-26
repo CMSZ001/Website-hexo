@@ -240,6 +240,8 @@ comment:
     server_url: waline.acmsz.top # Server URL
     reaction: true # Post reactions, option values: true | false
     version: 3.5.1 # Waline version, default use v3.2.1
+    options:
+      lang: 'zh-CN'
 
   # Giscus
   # See: https://github.com/giscus/giscus
