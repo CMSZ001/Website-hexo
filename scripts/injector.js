@@ -1,1 +1,1 @@
-hexo.extend.injector.register('head_end', '<script defer src="https://umami.acmsz.top/c4573967-e300-e2d0-6f2e-368c9dd37be0" data-website-id="4164eba8-0bbc-45ad-aa1c-ce2e2d5a4cc1"></script>');
+hexo.extend.injector.register('head_end', '<script defer src="https://umami.acmsz.top/script.js" data-website-id="8f4ba780-7c0e-4a9c-b3a4-ad7ebcbc52e9"></script>');
