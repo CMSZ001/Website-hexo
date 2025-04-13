@@ -308,7 +308,7 @@ footer:
     enable: true # Option values: true | false
     list:
       - code: 网站访问统计
-        link: https://umami.acmsz.top/share/C9f961bHcXyGz63i/acmsz.top
+        link: https://umami.acmsz.top/share/C9f961bHcXyGz63i/blog.acmsz.top
       # e.g.
       # - code: ICP 001
       # - link: https://beian.miit.gov.cn
