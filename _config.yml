@@ -15,7 +15,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.acmsz.top
+url: https://cmsz001.github.io/Website-hexo
 permalink: :title/
 permalink_defaults:
   lang: zh-CN
